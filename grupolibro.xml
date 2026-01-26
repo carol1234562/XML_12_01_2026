@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<libreria>
+    <libro ediciones="5">
+        <nombre> Los Felices Hollister </nombre>
+        <escritores> Andrew Svenson </escritores>
+        <fecha_de_publicacion> 2000-01-12 </fecha_de_publicacion>
+        <genero> Fantastico, humor </genero>
+    </libro>
+
+    <libro ediciones="3">
+        <nombre> It </nombre>
+        <escritores> Steven King </escritores>
+        <fecha_de_publicacion> 1980-01-12 </fecha_de_publicacion>
+        <genero> Terror </genero>
+    </libro>
+
+    <libro ediciones="5">
+        <nombre> Los 5 anillos </nombre>
+        <escritores> Miyamoto Musashi </escritores>
+        <fecha_de_publicacion> 1643-12-19 </fecha_de_publicacion>
+        <genero> Fantastico, humor </genero>
+    </libro>
+
+    <libro ediciones="1">
+        <nombre> El castillo del Vagabundo </nombre>
+        <escritores>  Diana Wynne Jones </escritores>
+        <fecha_de_publicacion> 2024-06-12 </fecha_de_publicacion>
+        <genero> Comedia, Historico </genero>
+    </libro>
+
+</libreria>   

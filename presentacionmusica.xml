@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<gruposdemusica>
+    <grupos>
+        <nombre> Set if off </nombre>
+        <genero> Pop </genero>
+        <contactos>
+            <email> sertif@gmail.com</email>
+            <facebo> Set it off official </facebo>
+            <instagram> Set if off official </instagram>
+            <twitter> setitoff</twitter>
+        </contactos>
+        <webofficial> https//::setitoffofficial.com</webofficial>
+        <integrantes>
+            <integrante>
+                <nombre> Marco Antonio Rogers </nombre>
+                <edad> 19 </edad>
+                <funcion> Vocalista </funcion>
+            </integrante>
+            <integrante>
+                <nombre> Pedro Suarez Vertiz </nombre>
+                <edad> 30 </edad>
+                <funcion> Baterista </funcion>
+            </integrante>
+            <integrante>
+                <nombre> Nicola Porchela </nombre>
+                <edad> 24 </edad>
+                <funcion> Guitarrista </funcion>
+            </integrante>
+        </integrantes>
+    </grupos>
+
+    <grupos>
+        <nombre> El curandero </nombre>
+        <genero> Folk </genero>
+        <contactos>
+            <email> fuuuuu@gmail.com</email>
+            <facebo> El curandero official </facebo>
+            <instagram> El curu official </instagram>
+            <twitter> surcuff</twitter>
+        </contactos>
+        <webofficial> https//::curanderoeloficial.com</webofficial>
+        <integrantes>
+            <integrante>
+                <nombre> Pedro Johan Agredas </nombre>
+                <edad> 20 </edad>
+                <funcion> Vocalista </funcion>
+            </integrante>
+            <integrante>
+                <nombre> Juan Martin Vertiz </nombre>
+                <edad> 20 </edad>
+                <funcion> Baterista </funcion>
+            </integrante>
+            <integrante>
+                <nombre> Christian Porchela </nombre>
+                <edad> 28 </edad>
+                <funcion> Guitarrista </funcion>
+            </integrante>
+        </integrantes>
+    </grupos>
+
+
+</gruposdemusica>
