@@ -15,14 +15,14 @@
                             <xs:element name="EstadisticasGenerales">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Ano" maxOccurs="unbounded">
+                                        <xs:element name="Año" maxOccurs="unbounded">
                                             <xs:complexType>
                                                 <xs:sequence>
                                                     <xs:element name="Exitos" type="NumeroPositivo" />
                                                     <xs:element name="Fracasos"
                                                         type="NumeroPositivo" />
                                                 </xs:sequence>
-                                                <xs:attribute name="anio" type="xs:gYear"
+                                                <xs:attribute name="año" type="xs:gYear"
                                                     use="required" />
                                             </xs:complexType>
                                         </xs:element>

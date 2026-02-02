@@ -6,11 +6,11 @@
         <Director>Juan Perez</Director>
 
         <EstadisticasGenerales>
-            <Año anio="2024">
+            <Año año="2024">
                 <Exitos>5</Exitos>
                 <Fracasos>2</Fracasos>
             </Año>
-            <Año anio="2025">
+            <Año año="2025">
                 <Exitos>8</Exitos>
                 <Fracasos>1</Fracasos>
             </Año>
