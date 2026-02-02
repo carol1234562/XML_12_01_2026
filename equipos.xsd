@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+
+    <xs:element name="Equipos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Equipo" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre" type="NombreEquipo" />
+                            <xs:element name="TipoTrabajo" type="TipoTrabajo" />
+                            <xs:element name="Director" type="Director" />
+
+                            <xs:element name="EstadisticasGenerales">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Ano" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Exitos" type="NumeroPositivo" />
+                                                    <xs:element name="Fracasos"
+                                                        type="NumeroPositivo" />
+                                                </xs:sequence>
+                                                <xs:attribute name="anio" type="xs:gYear"
+                                                    use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="Integrantes">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Integrante" maxOccurs="unbounded"
+                                            minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nombre"
+                                                        type="NombreApellidoCargo" />
+                                                    <xs:element name="Apellido"
+                                                        type="NombreApellidoCargo" />
+                                                    <xs:element name="Cargo"
+                                                        type="NombreApellidoCargo" />
+                                                    <xs:element name="FechaNacimiento"
+                                                        type="FechaNacimiento" />
+                                                    <xs:element name="RutaImagen" type="xs:string" />
+                                                    <xs:element name="UltimaHoraParticipacion"
+                                                        type="xs:time" />
+                                                    <xs:element name="UltimaFechaParticipacion"
+                                                        type="xs:date" />
+                                                    <xs:element name="Estadisticas">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Estadistica"
+                                                                    maxOccurs="unbounded"
+                                                                    minOccurs="2">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element
+                                                                                name="Nombre"
+                                                                                type="xs:string" />
+                                                                            <xs:element name="Valor"
+                                                                                type="NumeroPositivo" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+        <xs:unique name="NombreEquipoUnico">
+            <xs:selector xpath="Equipo" />
+            <xs:field xpath="Nombre" />
+        </xs:unique>
+
+        <xs:unique name="TipoTrabajoUnico">
+            <xs:selector xpath="Equipo" />
+            <xs:field xpath="TipoTrabajo" />
+        </xs:unique>
+
+        <xs:unique name="DirectorUnico">
+            <xs:selector xpath="Equipo" />
+            <xs:field xpath="Director" />
+        </xs:unique>
+    </xs:element>
+
+    <xs:simpleType name="NombreEquipo">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TipoTrabajo">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Director">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="NombreApellidoCargo">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+            <xs:maxLength value="20" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="NumeroPositivo">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="FechaNacimiento">
+        <xs:restriction base="xs:date">
+            <xs:maxExclusive value="2000-01-01" />
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

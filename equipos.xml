@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Equipos>
+    <Equipo>
+        <Nombre>DesarrolladoresX</Nombre>
+        <TipoTrabajo>Desarrollo de software</TipoTrabajo>
+        <Director>Juan Perez</Director>
+
+        <EstadisticasGenerales>
+            <Ano anio="2024">
+                <Exitos>5</Exitos>
+                <Fracasos>2</Fracasos>
+            </Ano>
+            <Ano anio="2025">
+                <Exitos>8</Exitos>
+                <Fracasos>1</Fracasos>
+            </Ano>
+        </EstadisticasGenerales>
+
+        <Integrantes>
+            <Integrante>
+                <Nombre>Mario</Nombre>
+                <Apellido>Gomez</Apellido>
+                <Cargo>Programador</Cargo>
+                <FechaNacimiento>1995-06-15</FechaNacimiento>
+                <RutaImagen>/imagenes/mario.jpg</RutaImagen>
+                <UltimaHoraParticipacion>09:30:00</UltimaHoraParticipacion>
+                <UltimaFechaParticipacion>2026-01-25</UltimaFechaParticipacion>
+                <Estadisticas>
+                    <Estadistica>
+                        <Nombre>ProgramasRealizados</Nombre>
+                        <Valor>10</Valor>
+                    </Estadistica>
+                    <Estadistica>
+                        <Nombre>ErroresCorregidos</Nombre>
+                        <Valor>5</Valor>
+                    </Estadistica>
+                </Estadisticas>
+            </Integrante>
+
+            <Integrante>
+                <Nombre>Laura</Nombre>
+                <Apellido>Ramirez</Apellido>
+                <Cargo>Tester</Cargo>
+                <FechaNacimiento>1998-11-12</FechaNacimiento>
+                <RutaImagen>/imagenes/laura.jpg</RutaImagen>
+                <UltimaHoraParticipacion>10:15:00</UltimaHoraParticipacion>
+                <UltimaFechaParticipacion>2026-01-25</UltimaFechaParticipacion>
+                <Estadisticas>
+                    <Estadistica>
+                        <Nombre>PruebasRealizadas</Nombre>
+                        <Valor>20</Valor>
+                    </Estadistica>
+                    <Estadistica>
+                        <Nombre>ErroresDetectados</Nombre>
+                        <Valor>7</Valor>
+                    </Estadistica>
+                </Estadisticas>
+            </Integrante>
+        </Integrantes>
+    </Equipo>
+</Equipos>

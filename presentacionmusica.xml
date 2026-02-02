@@ -1,63 +1,55 @@
 <?xml version="1.1" encoding="UTF-8"?>
 
-<gruposdemusica>
-    <grupos>
-        <nombre> Set if off </nombre>
-        <genero> Pop </genero>
-        <contactos>
-            <email> sertif@gmail.com</email>
-            <facebo> Set it off official </facebo>
-            <instagram> Set if off official </instagram>
-            <twitter> setitoff</twitter>
-        </contactos>
-        <webofficial> https//::setitoffofficial.com</webofficial>
-        <integrantes>
-            <integrante>
-                <nombre> Marco Antonio Rogers </nombre>
-                <edad> 19 </edad>
-                <funcion> Vocalista </funcion>
-            </integrante>
-            <integrante>
-                <nombre> Pedro Suarez Vertiz </nombre>
-                <edad> 30 </edad>
-                <funcion> Baterista </funcion>
-            </integrante>
-            <integrante>
-                <nombre> Nicola Porchela </nombre>
-                <edad> 24 </edad>
-                <funcion> Guitarrista </funcion>
-            </integrante>
-        </integrantes>
-    </grupos>
+<GruposMusica>
+    <Grupo>
+        <Nombre>Set if off</Nombre>
+        <Genero>pop</Genero>
+        <MediosContacto>
+            <Email>sertif@gmail.com</Email>
+            <Facebook>Set it off official</Facebook>
+            <Instagram>Set if off official</Instagram>
+            <Twitter>setitoff</Twitter>
+        </MediosContacto>
+        <WebOficial>https://setitoffofficial.com</WebOficial>
+        <Integrantes>
+            <Integrante funcion="vocalista">
+                <Nombre>Marco Antonio Rogers</Nombre>
+                <Edad>19</Edad>
+            </Integrante>
+            <Integrante funcion="batería">
+                <Nombre>Pedro Suarez Vertiz</Nombre>
+                <Edad>30</Edad>
+            </Integrante>
+            <Integrante funcion="bajo">
+                <Nombre>Nicola Porchela</Nombre>
+                <Edad>24</Edad>
+            </Integrante>
+        </Integrantes>
+    </Grupo>
 
-    <grupos>
-        <nombre> El curandero </nombre>
-        <genero> Folk </genero>
-        <contactos>
-            <email> fuuuuu@gmail.com</email>
-            <facebo> El curandero official </facebo>
-            <instagram> El curu official </instagram>
-            <twitter> surcuff</twitter>
-        </contactos>
-        <webofficial> https//::curanderoeloficial.com</webofficial>
-        <integrantes>
-            <integrante>
-                <nombre> Pedro Johan Agredas </nombre>
-                <edad> 20 </edad>
-                <funcion> Vocalista </funcion>
-            </integrante>
-            <integrante>
-                <nombre> Juan Martin Vertiz </nombre>
-                <edad> 20 </edad>
-                <funcion> Baterista </funcion>
-            </integrante>
-            <integrante>
-                <nombre> Christian Porchela </nombre>
-                <edad> 28 </edad>
-                <funcion> Guitarrista </funcion>
-            </integrante>
-        </integrantes>
-    </grupos>
-
-
-</gruposdemusica>
+    <Grupo>
+        <Nombre>El Curandero</Nombre>
+        <Genero>folk</Genero>
+        <MediosContacto>
+            <Email>fuuuuu@gmail.com</Email>
+            <Facebook>El Curandero official</Facebook>
+            <Instagram>El curu official</Instagram>
+            <Twitter>surcuff</Twitter>
+        </MediosContacto>
+        <WebOficial>https://curanderoeloficial.com</WebOficial>
+        <Integrantes>
+            <Integrante funcion="vocalista">
+                <Nombre>Pedro Johan Agredas</Nombre>
+                <Edad>20</Edad>
+            </Integrante>
+            <Integrante funcion="batería">
+                <Nombre>Juan Martin Vertiz</Nombre>
+                <Edad>21</Edad>
+            </Integrante>
+            <Integrante funcion="bajo">
+                <Nombre>Christian Porchela</Nombre>
+                <Edad>28</Edad>
+            </Integrante>
+        </Integrantes>
+    </Grupo>
+</GruposMusica>
